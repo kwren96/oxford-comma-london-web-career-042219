@@ -3,7 +3,7 @@ def oxford_comma(array)
  if length == 1
  string = array.join(', ')
 return string
-elsif length = 2
+elsif length == 2
  string = array,join(' and ')
  return string
 else 
